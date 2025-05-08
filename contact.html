@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио — Контакты</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="about.html">О себе</a>
+            <a href="projects.html">Проекты</a>
+            <a href="contact.html">Контакты</a>
+            <button id="themeToggle">🌓</button>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contact-card">
+          <section>
+            <h1>Контакты</h1>
+            <form>
+              <div class="form-group">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+      
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+      
+              <div class="form-group">
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+      
+              <button type="submit">Отправить</button>
+            </form>
+      
+            <div class="contact-info">
+              <p><strong>Email:</strong> example@mail.com</p>
+              <p><strong>Telegram:</strong> <a href="https://t.me/notserch">t.me/@notserch</a></p>
+              <p><strong>Instagram:</strong> <a href="https://instagram.com/yprozacmaycry">@yprozacmaycry</a></p>
+              <p><strong>GitHub:</strong> <a href="https://github.com/WILLGUAPA">github.com/WILLGUAPA</a></p>
+            </div>
+          </section>
+        </div>
+      </main>
+      
+
+    <footer>
+        <p>© <span id="year"></span> Kravchuk.swag</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
